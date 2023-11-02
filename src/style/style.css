@@ -1,0 +1,115 @@
+body {
+    background-color: #121212;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.hero img {
+    max-width: 200px;
+    height: auto;
+    margin: 20px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.get-started-button {
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.get-started-button:hover {
+    background-color: #357abd;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.feature-card {
+    width: 80%;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.1);
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0;
+    border: 2px solid #4a90e2;
+}
+
+.feature-card h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.feature-card p {
+    font-size: 16px;
+}
+
+.mid h1 {
+  text-align: center;
+  font-size: 24px;
+    margin: 10px 0;
+}
+
+.github-repo {
+  text-align: center;
+  font-size: 20px;
+    margin: 10px 0;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 500px;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.1);
+    text-align: center;
+  border: 1px solid #4a90e2;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  iframe {
+    width: 350px;
+  }
+}
+
+.copyright {
+  text-align: center;
+  font-size: 16px;
+}
