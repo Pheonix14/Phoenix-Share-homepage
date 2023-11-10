@@ -3,12 +3,7 @@ const CACHE_NAME = 'phoenix-share-cache-v1';
 
 // List of URLs to cache when the Service Worker is installed
 const urlsToCache = [
-  '/',
-  '/login', // Add all the URLs you want to cache here
-  '/create-account',
-  '/upload',
-  '/download',
-  '/error'
+  '/'
 ];
 
 // Install the Service Worker and cache assets
