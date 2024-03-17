@@ -18,7 +18,7 @@ To run Phoenix Share Homepage, you will need Node.js (LTS version) and npm insta
 Clone the project:
 
 ```bash
-  git clone https://github.com/Phoenix-Share/Phoenix-Share-Homepage.git
+  git clone https://github.com/Pheonix14/Phoenix-Share-Homepage.git
 ```
 
 Go to the project directory:
